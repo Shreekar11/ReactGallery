@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(1, 33, 72);
+  font-family: 'QuickSand';
+
+}
+.info{
+  border: 2px solid rgb(193, 191, 191);
+  border-radius: 20px;
+}
+/* .info .img-side{
+  border: 2px solid rgb(193, 191, 191);
+  border-radius: 20px;
+}
+.info .info-side{
+  border: 2px solid rgb(193, 191, 191);
+  border-radius: 20px;
+} */
+.prev{
+  margin-right: 20px;
+}
